@@ -11,15 +11,23 @@ public class Task7 {
         do {
             System.out.print("Введите m : ");
             m = in.nextInt();
-        } while (Integer.signum(m) != 1);
+        } while (Integer.signum(m) != 1);  // Проверить, что число натуральное
 
         do {
             System.out.print("Введите n : ");
             n = in.nextInt();
-        } while (n <= m);
+        } while (n <= m);             // n должно быть больше, чем m
 
         System.out.println("m = " + m + ", n = " + n);
-        // TODO доделать задание
 
+        for(int i=m; i<=n; i++) {
+            System.out.print("Число: " + i + ", делители: ");
+            for(int delitel=2; delitel<i; delitel++){
+                if(i % delitel == 0) {    // если остаток от деления равен 0, выводим делитель на экран
+                    System.out.print(delitel + " ");
+                }
+            }
+            System.out.println();
+        }
     }
 }
