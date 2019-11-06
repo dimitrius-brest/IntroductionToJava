@@ -1,4 +1,4 @@
-package by.my.introduction.level1.linear;
+package by.my.introduction.level1.A_linear;
 
 import java.util.Scanner;
 

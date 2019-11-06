@@ -1,4 +1,4 @@
-package by.my.introduction.level1.branching;
+package by.my.introduction.level1.B_branching;
 
 import java.util.Locale;
 import java.util.Scanner;
